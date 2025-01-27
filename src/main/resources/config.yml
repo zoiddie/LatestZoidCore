@@ -1,0 +1,6 @@
+arena-commands:
+  - "/world spawn"
+  - "/pos1 0,90,0"
+  - "/pos2 0,90,0"
+  - "/schem load spawnflat.schem"
+  - "/paste"

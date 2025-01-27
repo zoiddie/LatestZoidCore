@@ -1,0 +1,32 @@
+name: LatestZoidCore
+version: '1.0.0'
+main: org.zoid.latestZoidCore.LatestZoidCore
+api-version: '1.21'
+authors: [ Zoid ]
+commands:
+  rtp:
+    usage: /rtp
+    aliases: [randomteleport]
+  tier:
+    usage: /tier <player>
+  tpa:
+    usage: /tpa <player>
+  tpahere:
+    usage: /tpahere <player>
+  tpaccept:
+    usage: /tpaccept
+  tpdeny:
+    usage: /tpdeny
+  tpacancel:
+    usage: /tpacancel
+  back:
+    usage: /back
+  spawn:
+    usage: /spawn
+  flyspeed:
+    permission: flyspeed.use
+    usage: /flyspeed <speed>
+  region:
+    usage: /region <selector|create> [name]
+    permission: region.use
+    permission-message: You do not have permission to use this command.
